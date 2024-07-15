@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Responsividade - DIO</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #36393f;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #202225;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .hero button {
+      background-color: #7289da;
+      color: #ffffff;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .features {
+      padding: 60px 20px;
+    }
+
+    .features h2 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 40px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .feature-item img {
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+    }
+
+    .feature-item h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .feature-item p {
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #202225;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="logo.png" alt="Logo" width="120" height="40">
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Imagine um lugar...</h1>
+      <p>Onde você pode pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos podem passar o dia se divertindo e relaxando.</p>
+      <button>Junte-se a nós</button>
+    </section>
+
+    <section class="features">
+      <h2>Recursos</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <img src="icon1.png" alt="Icon 1">
+          <div>
+            <h3>Voz e Vídeo</h3>
+            <p>Fale com seus amigos e família com áudio e vídeo de alta qualidade.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <img src="icon2.png" alt="Icon 2">
+          <div>
+            <h3>Transmissão em Tempo Real</h3>
+            <p>Assista a seus amigos jogando e interaja com eles em tempo real.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <img src="icon3.png" alt="Icon 3">
+          <div>
+            <h3>Moderação Eficiente</h3>
+            <p>Tenha o controle da sua comunidade com ferramentas de moderação avançadas.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <img src="icon4.png" alt="Icon 4">
+          <div>
+            <h3>Conexão Confiável</h3>
+            <p>Mantenha-se conectado com seus amigos com uma infraestrutura robusta e segura.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Desafio Responsividade - DIO. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // JavaScript code goes here
+  </script>
+</body>
+</html>
